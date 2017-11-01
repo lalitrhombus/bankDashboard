@@ -1,0 +1,56 @@
+.listView{
+  input{
+    display: block;
+    width: 40%;
+    line-height: 34px;
+    background: #FBFBFC url('./magnifier.svg') no-repeat 99% center;
+    background-size: 25px;
+    border-radius: 4px;
+    border: none;
+    margin: 10px 0 2% 0;
+    font-size: 12px;
+    padding: 0 10px;
+    outline: none;
+  }
+
+  .table{
+    height: 100%;
+    max-height: 500px;
+    overflow: auto;
+    background: #3eb59b;
+  }  
+
+  th,td{
+    padding: 10px 10px;
+    border-left: 1px solid #68bfad;
+    border-top: 1px solid #68bfad;
+    text-transform: capitalize;
+    &.rightBorder{
+      border-right: 1px solid #68bfad  !important;
+    }
+    &.noBorder{
+      border: none !important;
+    }
+  }
+  td{
+    color: #FBFBFC;
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+  tr{
+    &:last-child{
+      td{
+        border-bottom: 1px solid #68bfad;
+      }
+    }
+  }
+  .actionBtn{
+    display: block;
+    color: #26AE90;
+    background: #FBFBFC;
+    border: none;
+    font-size: 12px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+}

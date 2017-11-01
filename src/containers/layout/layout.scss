@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Montserrat;
+    font-weight: bold;
+    src: url(./font/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    font-weight: normal;
+    src: url(./font/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Avenir;
+    font-weight: 500;
+    src: url(./font/Avenir-Medium.ttf);
+}
+@font-face {
+    font-family: Avenir;
+    font-weight: 500;
+    font-style: oblique;
+    src: url(./font/Avenir-MediumOblique.ttf);
+}
+@font-face {
+    font-family: Avenir;
+    font-weight: bold;
+    src: url(./font/Avenir-Heavy.ttf);
+}
+
+
+body{
+  font-family: Avenir, ariel;
+  font-size: 1em;
+  background: #26AE90;
+  color: #4a4a4a;
+}
+
+.mainView{
+  padding: 20px;
+  margin-bottom: 100px;
+}

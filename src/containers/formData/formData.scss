@@ -1,0 +1,53 @@
+.formData{
+  text-align: left;
+  label,input[type="text"],select{
+    display: block;
+    min-width: 400px;
+  }
+  input[type="text"],select{
+    display: block;
+    line-height: 34px;
+    background: #FBFBFC;
+    border-radius: 4px;
+    border: none;
+    margin: 5px 0 20px 2%;
+    font-size: 12px;
+    padding: 0 10px;
+    outline: none;
+  }
+  select{
+    height: 34px;
+  }
+  option{
+    line-height: 34px;
+  }
+  label{
+    font-size: 12px;
+    padding: 0 0 0 2%;
+  }
+  input[type="radio"],input[type="checkbox"]{
+    margin: 0px 5px 20px 5px ;
+  }
+  textarea{
+    display: block;
+    min-height: 100px; 
+    min-width: 400px;
+    background: #FBFBFC;
+    border-radius: 4px;
+    border: none;
+    margin: 5px 0 20px 2%;
+    font-size: 12px;
+    padding: 0 10px;
+  }
+  button{
+    padding: 10px 20px;
+    color: #26AE90;
+    background: #FBFBFC;
+    border: none;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 354px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+}
