@@ -1,4 +1,9 @@
-# CRA Redux, React Router & Redux Thunk
+# npm install
 
-* Tutorial: [Getting started with create-react-app, Redux, React Router & Redux Thunk](https://medium.com/@notrab/getting-started-with-create-react-app-redux-react-router-redux-thunk-d6a19259f71f)
-* Example: [View on Heroku](https://cra-redux-router-thunk.herokuapp.com/)
+
+# To Run on local 
+npm start
+
+
+# To get a index file to run on server
+npm run build
